@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/popuo-box.css">
+	<title>Portfolio</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="head">
+			<div class="container">
+				<div class="parallax-window " data-parallax="scroll" data-position-Y="0px" data-position-X="0px" data-android-Fix="false" data-ios-Fix="false" data-speed="0.6" data-image-src="../img/1.jpg">
+					<nav class="head__nav">
+						<ul class="menu wow fadeInDown" data-wow-duration="1.5s">
+							<li ><a href="#">Главная</a></li>
+							<li ><a href="#Summary">Резюме</a></li>
+							<li ><a href="#Study">Образование</a></li>
+							<li ><a href="#">Портфолио</a></li>
+							<li ><a href="#Contact">Контакты</a></li>
+						</ul>
+					</nav>
+				<div class="head__content wow fadeInDown" data-wow-duration="1.5s" >
+					<div class="head__name">Бурмашев Дмитрий</div>
+					<div class="head__text">Привет, я web-разработчик.</div>
+				</div>
+				</div>
+			</div>
+		</header>
+				<div class="Summary">
+			<div class="container">
+				<div class="Summary__content">
+					<div id="Summary" class="Summary__titel wow rotateInDownLeft" data-wow-duration="1.5s" data-wow-offset="550">
+						РЕЗЮМЕ
+					</div>
+					<div class="Summary__block">
+						<div class="Block__content">
+						<div class="Summary__img">
+						<img src="../img/Iam.png" alt="">
+						</div>
+						<div class="Text">
+						Я веб-разработчик. Занимаюсь версткой и программированием сайтов. <br>
+						Постоянно развиваюсь в данном направлении.
+						</div>
+					</div>
+						<a class="Summary__doc" href="../img/info/Rezyume.docx" download><img src="../img/icons/arrow.png" align="center" width="41" height="44"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="Study">
+			<div class="container">
+				<div class="Study__content">
+					<div id="Study" class="Study__titel wow rotateInDownLeft" data-wow-duration="1.5s" data-wow-offset="550">
+						ОБРАЗОВАНИЕ
+					</div>
+					<div class="Study__button">
+						<button class="btn">Учебный план</button>
+					</div>
+					<div class="Study__blocks">
+						<div class="blocks__row">
+							<div class="block1">
+							<div class="block__circle">
+								<div class="block__titel">ПМ.01</div>
+							</div>
+							</div>
+							<div class="block1">
+								<div class="block__circle">
+								<div class="block__titel">ПМ.02</div>
+							</div>
+							</div>
+							<div class="block1">
+								<div class="block__circle">
+								<div class="block__titel">ПМ.03</div>
+							</div>
+							</div>
+							<div class="block1">
+								<div class="block__circle">
+								<div class="block__titel">ПМ.04</div>
+							</div>
+							</div>
+							<div class="block1">
+								<div class="block__circle">
+								<div class="block__titel">ПМ.05</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+									<!--Портфолио-->
+		<div class="portfol">
+			<div class="portf_zagl" id="portf_zagl">
+				<h1>ПОРТФОЛИО</h1>
+				<h2>Здесь приведен список моих работ: разработаные <br> сайты, векторная графика, а также сертификаты о <br> прохождении курсов .</h2>
+			</div>
+<!---------------------------------------------------------------------------------------------------->
+			<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="app card icon logo web bd">Все</span></li>
+						<li><span class="filter active">/</span></li>
+						<li><span class="filter" data-filter="app">Веб-сайты</span></li>
+						<li><span class="filter">/</span></li>
+						<li><span class="filter" data-filter="card">Макетирование</span></li>
+						<li><span class="filter">/</span></li>
+						<li><span class="filter" data-filter="icon">Сертификаты</span></li>
+						<li><span class="filter">/</span></li>
+						<li><span class="filter" data-filter="bd">Базы данных</span></li>
+			</ul>
+    <div class="work" id="work">
+		<div class="container">
+					<div id="portfoliolist">
+						<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+							<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="../img/4.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<img src="img/icon-eye.png" alt=""/>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+							<a href="#small-dialog2" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="../img/6.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<img src="img/icon-eye.png" alt=""/>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+							<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="../img/3.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<img src="img/icon-eye.png" alt=""/>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+							<a href="#small-dialog4" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="../img/2.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<img src="img/icon-eye.png" alt=""/>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="portfolio bd mix_all" data-cat="bd" style="display: inline-block; opacity: 1;">
+							<a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+								<img src="../img/5.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 ">
+										<img src="img/icon-eye.png" alt=""/>
+									</h2>
+								</div>
+							</a>
+						</div>
+						<div class="portfolio-wrapper" style="display: none">		
+							<a href="#small-dialog5" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						    	<img src="../img/2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="img/icon-eye.png" alt=""/></h2>
+						  		</div>
+							</a>
+		                </div>
+					</div>
+					<div class="clearfix"></div>	
+				</div>
+			<!---- Script for gallery Here --->
+				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+					$(function () {
+						var filterList = {
+							init: function () {
+								// MixItUp plugin
+								// http://mixitup.io
+								$('#portfoliolist').mixitup({
+									targetSelector: '.portfolio',
+									filterSelector: '.filter',
+									effects: ['fade'],
+									easing: 'snap',
+									// call the hover effect
+									onMixEnd: filterList.hoverEffect()
+								});				
+							},
+							hoverEffect: function () {
+								// Simple parallax effect
+								$('#portfoliolist .portfolio').hover(
+									function () {
+										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+									},
+									function () {
+										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+									}		
+								);				
+							}
+						};
+						// Run the show!
+						filterList.init();
+					});	
+					</script>
+			<!--- Gallery Script Ends --->
+			<!---pop-up-box---->
+					  <script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+					<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<!---//pop-up-box---->
+			<div id="small-dialog" class="mfp-hide">
+						<div class="image-top">
+							<img src="../img/4.1.jpg"/>
+							<p>Сайт о путеществиях</p>
+						</div>
+					</div>
+					<div id="small-dialog2" class="mfp-hide">
+						<div class="image-top">
+							<img src="../img/6.2.jpg"/>
+							<p>Макет сайта по строительству домов</p>
+						</div>
+					</div>
+					<div id="small-dialog3" class="mfp-hide">
+						<div class="image-top">
+							<img src="../img/3.3.jpg"/>
+							<p>Сертификат</p>
+						</div>
+					</div>
+					<div id="small-dialog4" class="mfp-hide">
+						<div class="image-top">
+							<img src="../img/2.4.jpg"/>
+							<p>Сертификат</p>
+						</div>
+					</div>
+					<div id="small-dialog5" class="mfp-hide">
+						<div class="image-top">
+							<img src="../img/5.5.jpg"/>
+							<p>База данных</p>
+						</div>
+					</div>
+					<div id="small-dialog5" class="mfp-hide">
+						<div class="image-top">
+							<img src="../img/2.jpg"/>
+							<p>Сертификат ИНТУИТ "Работа в Microsoft Excel 2010"</p>
+						</div>
+					</div>
+			<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+						});
+				</script>
+		</div>
+	</div>
+				<div class="contacts">
+					<div class="form">
+							<form action="#" id="form" class="form__body">
+								<h1 id="Contact" class="form__title wow rotateInDownLeft" data-wow-duration="1.5s" data-wow-offset="550">КОНТАКТЫ</h1>
+								<h2 class="form__subtitle">Вы можете связаться со мной и оставить свое сообщение <br>Я обязательно отвечу на него</h2>
+								<div class="form__item">
+									<label for="formName" type="text" class="form__label">Ваше имя*:</label>
+									<input id="formName" type="text" name="name" class="form__input _req">
+								</div>
+								<div class="form__item">
+									<label for="formEmail" type="text" class="form__label">Ваш Email*:</label>
+									<input id="formEmail" type="text" name="name" class="form__input _req _email">
+								</div>
+								<div class="form__item">
+									<label for="formMessage" class="form__label">Сообщение:</label>
+									<textarea name="message" id="formMessage" class="form__input"></textarea>
+								</div>
+								
+								<div class="form__item">
+									<div class="checkbox">
+										<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+										<label for="formAgreement" class="checkbox__label"><span>Я даю своё согласие на боработку персональных данных в соответствии с <a href="">Условиями</a>*</span></label>
+									</div>
+								</div>
+								<button type="sumbit" class="form__button">Отправить</button>
+							</form>
+						</div>
+					</div>
+					<footer class="footer">
+						<div class="container">
+							<div class="footer__content">
+								<div class="footer__row">
+								<a target="_blank" href="https://vk.com/d.c0rven"><img src="../img/icons/VK.png" alt="ВК"></a>
+								<a target="_blank" href="https://www.instagram.com/c0rven/"><img src="../img/icons/INST.png" alt="Инста"></a>
+								<a target="_blank" href="https://t.me/C0rven"><img src="../img/icons/Telega.png" alt="Телега"></a>
+								<a target="_blank" href="https://twitter.com/c0rvenchik?s=09"><img src="../img/icons/Twitter.png" alt="Твиттер"></a>
+								</div>
+							</div>
+						</div>
+					</footer>
+		
+		<script src="../js/parallax.js"></script>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/main.js"></script>
+		<script src="../js/wow.min.js"></script>
+		<script src="../js/sk.js"></script>
+		<script src="../js/easing.js"></script>
+		<script src="../js/jquery.magnific-popup.js"></script>
+		<script src="../js/modernizr.custom.min.js"></script>
+		<script src="../js/jquery.mixitup.min.js"></script>
+	</div>
+</body>
+</html>
